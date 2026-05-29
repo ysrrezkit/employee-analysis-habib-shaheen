@@ -229,7 +229,7 @@ app.layout = html.Div(style=DARK_STYLE, children=[
                 },
                 style_data_conditional=[{
                     'if': {'row_index': 'odd'},
-                    'backgroundColor': '#1f2937',
+                    'backgroundColor': '#1f2937', #type: ignore
                 }]
             )
         ], className="mb-5")
